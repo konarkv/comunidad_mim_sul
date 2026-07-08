@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* ---- Design tokens (one accent, one neutral ink, generous whitespace) ---- */
+@theme {
+  --color-bg: #ffffff;
+  --color-surface: #f6f8f7;
+  --color-surface-2: #eef3f1;
+  --color-ink: #14201d;
+  --color-muted: #5b6b66;
+  --color-border: #e4eae7;
+
+  --color-accent: #0f766e;
+  --color-accent-strong: #0b5d56;
+  --color-accent-soft: #e5f3f0;
+
+  --color-si: #0f766e;
+  --color-no: #b4442f;
+  --color-abstencion: #9aa39f;
+
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+
+  --radius-card: 16px;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* offset anchor targets so the fixed nav doesn't cover section headings */
+  scroll-padding-top: 84px;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Respect reduced-motion for the smooth scroll */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+@layer components {
+  .input {
+    @apply w-full rounded-xl border border-border bg-bg px-3.5 py-2.5 text-ink outline-none transition;
+    @apply placeholder:text-muted/70 focus:border-accent focus:ring-2 focus:ring-accent/20;
+  }
+}
