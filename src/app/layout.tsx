@@ -8,7 +8,7 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Comunidad — vuestra comunidad, decidida entre todos",
+  title: "ConvivAI — vuestra comunidad, decidida entre todos",
   description:
     "La plataforma para que la comunidad de propietarios comunique, decida y vote con transparencia. Un único pago anual por comunidad, aprobable en junta.",
 };

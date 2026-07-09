@@ -24,7 +24,7 @@ export function AuthForm({
     <div className="w-full max-w-sm">
       <Link href="/" className="mb-8 flex items-center gap-2">
         <Logo />
-        <span className="text-lg font-bold text-ink">Comunidad</span>
+        <span className="text-lg font-bold text-ink">ConvivAI</span>
       </Link>
 
       <h1 className="text-2xl font-bold text-ink">

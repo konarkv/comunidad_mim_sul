@@ -5,11 +5,11 @@ import { useState } from "react";
 const QA = [
   {
     q: "¿Sustituye al administrador de fincas?",
-    a: "No va de eso. Comunidad os da control y transparencia sobre vuestra comunicación y vuestras decisiones. Funciona igual de bien con administrador o sin él: si lo tenéis, la junta llega a las reuniones con todo claro y decidido.",
+    a: "No va de eso. ConvivAI os da control y transparencia sobre vuestra comunicación y vuestras decisiones. Funciona igual de bien con administrador o sin él: si lo tenéis, la junta llega a las reuniones con todo claro y decidido.",
   },
   {
     q: "¿Es válido legalmente votar aquí?",
-    a: "Comunidad refleja y da constancia de los acuerdos que toma la junta y ordena vuestras votaciones internas. No sustituye los requisitos formales de la Ley de Propiedad Horizontal ni pretende sustituir al acta oficial cuando esta sea necesaria; ante dudas legales, consultad con vuestro administrador o asesor.",
+    a: "ConvivAI refleja y da constancia de los acuerdos que toma la junta y ordena vuestras votaciones internas. No sustituye los requisitos formales de la Ley de Propiedad Horizontal ni pretende sustituir al acta oficial cuando esta sea necesaria; ante dudas legales, consultad con vuestro administrador o asesor.",
   },
   {
     q: "¿Cuánto cuesta y quién paga?",

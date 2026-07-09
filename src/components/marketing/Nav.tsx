@@ -32,10 +32,10 @@ export function Nav() {
       }`}
     >
       <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
-        <Link href="#top" className="flex items-center gap-2" aria-label="Comunidad — inicio">
+        <Link href="#top" className="flex items-center gap-2" aria-label="ConvivAI — inicio">
           <Logo />
           <span className="text-lg font-bold tracking-tight text-ink">
-            Comunidad
+            ConvivAI
           </span>
         </Link>
 

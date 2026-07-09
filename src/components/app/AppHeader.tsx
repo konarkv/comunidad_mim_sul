@@ -8,7 +8,7 @@ export function AppHeader({ email }: { email?: string }) {
       <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-4 sm:px-6">
         <Link href="/app" className="flex items-center gap-2">
           <Logo />
-          <span className="text-lg font-bold text-ink">Comunidad</span>
+          <span className="text-lg font-bold text-ink">ConvivAI</span>
         </Link>
         <div className="flex items-center gap-3">
           {email && (

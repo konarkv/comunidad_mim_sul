@@ -10,7 +10,7 @@ export function Footer() {
         <div>
           <div className="flex items-center gap-2">
             <Logo />
-            <span className="text-lg font-bold text-ink">Comunidad</span>
+            <span className="text-lg font-bold text-ink">ConvivAI</span>
           </div>
           <p className="mt-3 max-w-xs text-sm text-muted">
             La comunidad de propietarios que se comunica, decide y vota con
@@ -76,7 +76,7 @@ export function Footer() {
           está en fase piloto: al solicitar acceso no se realiza ningún cobro.
         </p>
         <p className="mt-2">
-          © {new Date().getFullYear()} Comunidad · Hecho en España
+          © {new Date().getFullYear()} ConvivAI · Hecho en España
         </p>
       </div>
     </footer>
